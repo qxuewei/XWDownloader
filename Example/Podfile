@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XWDownloader_Example' do
+  pod 'XWDownloader', :path => '../'
+
+  target 'XWDownloader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
