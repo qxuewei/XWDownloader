@@ -7,6 +7,7 @@
 //
 
 #import "XWViewController.h"
+#import "XWDownloader.h"
 
 @interface XWViewController ()
 
@@ -17,13 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    XWDownloader *downloader = [[XWDownloader alloc] init];
+    [downloader downloader:[NSURL URLWithString:@"http://free2.macx.cn:8281/tools/photo/Sip44.dmg"]];
 }
 
 @end

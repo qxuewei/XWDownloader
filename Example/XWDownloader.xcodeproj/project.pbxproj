@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		192DA9402A553717586FA2E0 /* Pods_XWDownloader_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96251A92356CBBAD43D73CCA /* Pods_XWDownloader_Tests.framework */; };
+		2ED86E2D1E31E45200356093 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED86E2C1E31E45200356093 /* Launch Screen.storyboard */; };
+		2ED86E311E31E4FB00356093 /* XWDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED86E301E31E4FB00356093 /* XWDownloader.m */; };
+		2ED86E341E31E96900356093 /* XWFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED86E331E31E96900356093 /* XWFileTool.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -36,7 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		576A2E0F24BBF4FF934C5875 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2ED86E2C1E31E45200356093 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2ED86E2F1E31E4FB00356093 /* XWDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDownloader.h; sourceTree = "<group>"; };
+		2ED86E301E31E4FB00356093 /* XWDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDownloader.m; sourceTree = "<group>"; };
+		2ED86E321E31E96900356093 /* XWFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWFileTool.h; sourceTree = "<group>"; };
+		2ED86E331E31E96900356093 /* XWFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWFileTool.m; sourceTree = "<group>"; };
+		576A2E0F24BBF4FF934C5875 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XWDownloader_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWDownloader_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,12 +65,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7E50F33DD2C0588A059A6A33 /* Pods-XWDownloader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWDownloader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XWDownloader_Tests/Pods-XWDownloader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		84FD5951E2B2F9979A777804 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		84FD5951E2B2F9979A777804 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		96251A92356CBBAD43D73CCA /* Pods_XWDownloader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XWDownloader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA641A90C16F4BABD6554031 /* Pods_XWDownloader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XWDownloader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F51B110499991711DF6630 /* Pods-XWDownloader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWDownloader_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XWDownloader_Example/Pods-XWDownloader_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DC15EA7B7F19771C68145AA0 /* XWDownloader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XWDownloader.podspec; path = ../XWDownloader.podspec; sourceTree = "<group>"; };
+		DC15EA7B7F19771C68145AA0 /* XWDownloader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XWDownloader.podspec; path = ../XWDownloader.podspec; sourceTree = "<group>"; };
 		F59FCD56CCD2CDC4F3319694 /* Pods-XWDownloader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWDownloader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XWDownloader_Example/Pods-XWDownloader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FD73ECA7C39DCCD6D65B54BC /* Pods-XWDownloader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWDownloader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XWDownloader_Tests/Pods-XWDownloader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +101,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ED86E2E1E31E4AB00356093 /* XWDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				2ED86E2F1E31E4FB00356093 /* XWDownloader.h */,
+				2ED86E301E31E4FB00356093 /* XWDownloader.m */,
+				2ED86E321E31E96900356093 /* XWFileTool.h */,
+				2ED86E331E31E96900356093 /* XWFileTool.m */,
+			);
+			path = XWDownloader;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +149,7 @@
 		6003F593195388D20070C39A /* Example for XWDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				2ED86E2E1E31E4AB00356093 /* XWDownloader */,
 				6003F59C195388D20070C39A /* XWAppDelegate.h */,
 				6003F59D195388D20070C39A /* XWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -137,6 +157,7 @@
 				6003F5A6195388D20070C39A /* XWViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				2ED86E2C1E31E45200356093 /* Launch Screen.storyboard */,
 			);
 			name = "Example for XWDownloader";
 			path = XWDownloader;
@@ -244,9 +265,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = XW;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Xuewei;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ZE4J77P8N2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -278,6 +302,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				2ED86E2D1E31E45200356093 /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +418,8 @@
 				6003F59E195388D20070C39A /* XWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				2ED86E341E31E96900356093 /* XWFileTool.m in Sources */,
+				2ED86E311E31E4FB00356093 /* XWDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,14 +474,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -467,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,20 +519,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -513,12 +550,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = ZE4J77P8N2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XWDownloader/XWDownloader-Prefix.pch";
 				INFOPLIST_FILE = "XWDownloader/XWDownloader-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -529,12 +568,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = ZE4J77P8N2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XWDownloader/XWDownloader-Prefix.pch";
 				INFOPLIST_FILE = "XWDownloader/XWDownloader-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

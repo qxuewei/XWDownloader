@@ -1,0 +1,16 @@
+PODS:
+  - XWDownloader (0.1.0)
+
+DEPENDENCIES:
+  - XWDownloader (from `../`)
+
+EXTERNAL SOURCES:
+  XWDownloader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XWDownloader: b11a5b891c90ee3c5e9e1433cd5f11f965cfcb11
+
+PODFILE CHECKSUM: bf40538336f578561cd9901e9826c26d84f273cb
+
+COCOAPODS: 1.2.0.beta.1

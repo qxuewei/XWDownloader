@@ -1,0 +1,6 @@
+framework module XWDownloader {
+  umbrella header "XWDownloader-umbrella.h"
+
+  export *
+  module * { export * }
+}
