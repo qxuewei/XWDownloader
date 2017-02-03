@@ -40,6 +40,7 @@ typedef void(^DownloadFailedBlock)(NSError *error);
  根据URL地址下载资源, 如果任务已经存在, 则执行继续动作
  */
 -(void)downloader:(NSURL *)url downloadInfo:(DownloadInfoBlock)downloadInfo stateChange:(StateChangeBlock)stateChange progressChange:(ProgressChangeBlock)progressChange downloadSuccess:(DownloadSuccessBlock)downloadSuccess downloadFailed:(DownloadFailedBlock)downloadFailed;
+
 /**
  暂停任务
  注意:
@@ -48,6 +49,13 @@ typedef void(^DownloadFailedBlock)(NSError *error);
  - 解决方案: 引入状态
  */
 - (void)pauseCurrentTask;
+
+/**
+ 继续任务
+ - 如果调用了几次暂停, 就要调用几次继续, 才可以继续
+ - 解决方案: 引入状态
+ */
+- (void)resumeCurrentTask;
 
 /**
  取消任务
