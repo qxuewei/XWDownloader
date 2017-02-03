@@ -35,12 +35,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self timer];
+//    [self timer];
 }
 
 - (IBAction)download:(id)sender {
     NSURL *url = [NSURL URLWithString:@"http://free2.macx.cn:8281/tools/photo/SnapNDragPro418.dmg"];
-    [self.downLoader downloader:url];
+    [self.downLoader downloader:url downloadInfo:^(long long totalSize) {
+        NSLog(@"++++ totalSize: %lld ",totalSize);
+    } stateChange:^(XWDownloadState state) {
+        NSLog(@"++++ state: %zd ",state);
+    } progressChange:^(float progress) {
+        NSLog(@"++++ progress: %f ",progress);
+    } downloadSuccess:^(NSString *filePath) {
+        NSLog(@"++++ filePath: %@ ",filePath);
+    } downloadFailed:^(NSError *error) {
+        NSLog(@"++++ error: %@ ",error);
+    }];
 }
 - (IBAction)pause:(id)sender {
     [self.downLoader pauseCurrentTask];

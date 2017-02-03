@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		192DA9402A553717586FA2E0 /* Pods_XWDownloader_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96251A92356CBBAD43D73CCA /* Pods_XWDownloader_Tests.framework */; };
+		2EAC77AB1E441C77006EB177 /* XWDownloaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAC77AA1E441C77006EB177 /* XWDownloaderManager.m */; };
 		2ED86E2D1E31E45200356093 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED86E2C1E31E45200356093 /* Launch Screen.storyboard */; };
 		2ED86E311E31E4FB00356093 /* XWDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED86E301E31E4FB00356093 /* XWDownloader.m */; };
 		2ED86E341E31E96900356093 /* XWFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED86E331E31E96900356093 /* XWFileTool.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EAC77A91E441C77006EB177 /* XWDownloaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDownloaderManager.h; sourceTree = "<group>"; };
+		2EAC77AA1E441C77006EB177 /* XWDownloaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDownloaderManager.m; sourceTree = "<group>"; };
 		2ED86E2C1E31E45200356093 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		2ED86E2F1E31E4FB00356093 /* XWDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDownloader.h; sourceTree = "<group>"; };
 		2ED86E301E31E4FB00356093 /* XWDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDownloader.m; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 		2ED86E2E1E31E4AB00356093 /* XWDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				2EAC77A91E441C77006EB177 /* XWDownloaderManager.h */,
+				2EAC77AA1E441C77006EB177 /* XWDownloaderManager.m */,
 				2ED86E2F1E31E4FB00356093 /* XWDownloader.h */,
 				2ED86E301E31E4FB00356093 /* XWDownloader.m */,
 				2ED86E321E31E96900356093 /* XWFileTool.h */,
@@ -420,6 +425,7 @@
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				2ED86E341E31E96900356093 /* XWFileTool.m in Sources */,
 				2ED86E311E31E4FB00356093 /* XWDownloader.m in Sources */,
+				2EAC77AB1E441C77006EB177 /* XWDownloaderManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
